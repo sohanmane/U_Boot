@@ -1,0 +1,11 @@
+# Serial console output!
+enable_uart=1
+
+# 64bit-mode
+arm_control=0x200
+
+# Use U-Boot
+kernel=u-boot.bin 
+
+dtparam=i2c_arm=on
+dtparam=spi=on
